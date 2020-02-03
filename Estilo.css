@@ -1,0 +1,175 @@
+a:hover{cursor:hand;}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body{
+    margin: 0;
+    background-color:#f4f4f4;
+}
+h3, .xp, .iconsRating {
+     color:  #0489B1;
+     margin-left:10px;
+}
+p, h1,h3,h2{
+    font-family: 'PT Serif', serif;
+}
+.hrTitle{
+    width: 90%;
+}
+h2{
+    color: #727272;
+}
+.modalTitle,.info{
+    color: peru;
+}
+.modal{
+    
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 187vh;
+    position: absolute;
+    display: none;
+}
+.vent{
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10% auto;
+    padding: 33px;
+    position: absolute;
+    left: 32%;
+    top: 45%;
+    width: 33%;
+    text-align: center;
+    background-color: #111;
+}
+.closeModal{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.image{ 
+    margin-top: 30px;
+    width: 350px;
+    height: 300px;
+    clip-path: polygon(25% 0, 75% 0, 100% 44%, 79% 100%, 23% 100%, 0 48%);
+}
+.verticalRule{
+    border-left:1px solid rgb(31, 30, 30);
+    height:780px;
+}
+
+.titleItem{
+    color:#01A9DB;
+}
+.bn, .item{
+    color: white;
+}
+.name{
+    color:skyblue;
+    font-size: 35px;
+}
+.lastname{
+    font-size: 45px;
+}
+.lastname, .bold{
+    
+    color: #4b4b4b;
+}
+p{
+   color: #656565;
+}
+
+.informationBanner,.foot{
+    width: 100%;    
+    padding: 5px;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    height: 50px;
+
+}
+
+.element{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.experienceContainer, .additionalInformation{ 
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+.formationContainer{
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    margin: 0 25px;
+}
+.containerIcon, .item{
+    display: flex; 
+    align-items: center; 
+    margin-left:10px;
+
+}
+.title,.description,.verticalRule{
+    margin-left:20px;
+}
+.description{
+    margin-top: 10px;
+}
+.til1{
+    margin-top: 30px;
+}
+.til2{
+    
+    margin-top: 130px;
+}
+.til3{
+    margin-top: 80px;
+}
+.til4{
+    margin-top: 110px;
+}
+
+.generalInformation{
+    justify-content: center;
+}
+.skill, .personality,.generalInformation,.experienceInformation, .experienceContainer, .element,.informationBanner,.foot{
+    display: flex;
+    flex-direction: row;
+}
+.rating, .ratingB{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.rating{
+    margin-left: 40%;
+}
+.ratingB{
+    margin-left: 38%;
+}
+
+.banner
+{
+    width: 55%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.workExperience, .additionalInformation{  
+    width: 50%;
+}
+
+.nameTitle{
+    font-style: italic;
+}
+.descriptionWork{
+    text-align: justify;
+}
+.bold{
+    font-weight: bold;
+}
